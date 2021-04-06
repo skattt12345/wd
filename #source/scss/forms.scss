@@ -1,0 +1,37 @@
+//<BUTTONS>====================================================================================================
+.btn{
+	// display: inline-block;
+	padding: 25px 40px;
+	background-color:#34547A;
+	width: 225px;
+	text-align: center;
+
+	&:hover{
+
+	}
+	&.fw{width: 100%;}
+}
+//</BUTTONS>====================================================================================================
+
+//<INPUT>====================================================================================================
+input[type=text],input[type=email],input[type=tel],textarea{-webkit-appearance:none;-moz-appearance:none;appearance:none;}
+.input{
+	font-family: 'Roboto', sans-serif;
+	border-radius: 0 !important;
+	width: 100%;
+	display: block;
+	padding:15px 95px 15px 20px;
+	font-size: 14px;
+
+	&.focus{}
+	&.err{}
+}
+textarea.input{
+	resize:none;
+	padding:15px 5px 15px 20px;
+}
+//<INPUT>====================================================================================================
+
+//</INPUT>====================================================================================================
+
+//</INPUT>====================================================================================================

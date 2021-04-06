@@ -1,0 +1,18 @@
+.design {
+  /* .design__row */
+  /* .design__column */
+}
+.design__row {
+  display: flex;
+  margin: 0px -70px;
+}
+.design__column {
+  flex: 0 0 50%;
+  padding: 0px 70px;
+}
+
+.item-design {
+  /* .item-design__title */
+  /* .item-design__text */
+  /* .item-design__btn */
+}

@@ -1,0 +1,38 @@
+.design {
+	padding-top: 140px;
+	/* .design__row */
+	&__row {
+		display: flex;
+		justify-content: center;
+	}
+	/* .design__column */
+	&__column {
+		margin: 0 70px;
+		img{
+			width: 100%;
+			margin-top: 20px;
+		}
+	}
+}
+.item-design {
+	/* .item-design__title */
+	&__title {
+		font-weight: 500;
+		font-size: 48px;
+		color: #000000;
+		margin-bottom: 60px;
+	}
+	/* .item-design__text */
+	&__text {
+		font-size: 16px;
+		line-height: 26px;
+		color: #727272;
+		width: 540px;
+		margin-bottom: 60px;
+
+	}
+	/* .item-design__btn */
+	&__button {
+		color: #ffffff;
+	}
+}
