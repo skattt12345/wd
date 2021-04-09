@@ -816,6 +816,10 @@ h1, h2, h3, h4, h5, h6 {
     padding: 20px 0 1px 0;
   }
 }
+.registration__form {
+  max-width: 540px;
+  margin: 0 auto;
+}
 .registration__column {
   margin-bottom: 65px;
   display: flex;
@@ -830,38 +834,42 @@ h1, h2, h3, h4, h5, h6 {
   }
 }
 
-.info-column {
-  /* .info-column__row */
-  /* .info-column__active */
-  /* .info-column__message */
+.form-registration {
+  /* .form-registration__row */
+  /* .form-registration__input */
+  /* .form-registration__text */
+  /* .form-registration__button */
 }
-.info-column__row {
+.form-registration__row {
   display: flex;
-  margin: 0 -15px;
+  margin: 0 -15px 30px -15px;
 }
 @media (max-width: 479.98px) {
-  .info-column__row {
+  .form-registration__row {
     display: block;
+    margin-bottom: 0px;
   }
 }
-.info-column__active {
+.form-registration__input {
   flex: 0 0 50%;
-  margin-bottom: 20px;
   padding: 0 15px;
 }
-.info-column__message {
-  flex: 0 0 100%;
-  margin-bottom: 40px;
+@media (max-width: 479.98px) {
+  .form-registration__input {
+    flex: 1 1 100%;
+    margin: 30px 0px;
+  }
+}
+.form-registration__text {
+  margin-bottom: 30px;
+}
+.form-registration__button {
   text-align: center;
 }
-.info-column__button {
-  text-align: center;
-}
-.info-column__button button {
-  font-family: "Roboto", sans-serif;
-  color: #FFFFFF;
-  font-size: 14px;
-  text-align: center;
+@media (max-width: 479.98px) {
+  .form-registration__button {
+    margin-bottom: 30px;
+  }
 }
 
 .footer {
@@ -949,6 +957,7 @@ h1, h2, h3, h4, h5, h6 {
 input[type=text], input[type=email], input[type=tel], textarea {
   -webkit-appearance: none;
   appearance: none;
+  width: 100%;
 }
 
 .input {
